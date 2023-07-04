@@ -4,7 +4,9 @@
   padding: 0;
   justify-content: space-between;
   position: sticky;
-  top: 2px;
+  background-color: white;
+  top: 0;
+  z-index: 100000;
 }
 
 .logo_section {
@@ -12,16 +14,126 @@
   border: "solid red 2px";
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .logo > img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 50px;
+  margin: auto;
 }
 
 .utility_section {
   display: flex;
   justify-content: space-around;
   width: 50%;
+}
+.placeholder_container{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder_container_text{
+  width: 50%;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.placeholder_container_image > img {
+  height: 70%;
+  width: 70%;
+  text-align: center;
+}
+
+.explore{
+  width: 40%;
+  font: bolder;
+  color: white;
+  background-color: #6B62FF;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 40px;
+}
+
+.info_container{
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin-inline: auto;
+  
+}
+
+.info_card{
+  width: 22%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+height: 400px;
+position: relative;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.info_image{
+  width:180px;
+  padding: 20px;
+  height: 200px;
+}
+
+.info_text > p {
+  margin: 10px;
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.explore_component{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  left: 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+color: rgb(62, 62, 62);
+font-size: small;
+}
+
+.everything{
+  margin-top: 20px;
+}
+
+.everything{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-inline: auto;
+  justify-content: space-around;
+}
+
+.everything_card {
+  width: 200px;
+  margin-inline: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;  padding: 20px;
+  margin-top: 20px;
+  color: rgb(145, 145, 145);
+  margin: 20px 10px;
+}
+
+.everything_card > h3 {
+  color: black;
+}
+
+
+.everything_icon{
+  color: #6B62FF;
+  font-size: 36px;
+  display: block;
+  margin: 10px;
+}
+
+.everything_container{
+  margin-top: 30px;
 }
